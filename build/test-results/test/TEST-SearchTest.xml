@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SearchTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-11-07T09:22:12" hostname="AnhMai-MBP.local" time="10.175">
+  <properties/>
+  <testcase name="testWelcomeScreen" classname="SearchTest" time="10.175"/>
+  <system-out><![CDATA[http://127.0.0.1:4723/wd/hub
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+</testsuite>
