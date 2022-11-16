@@ -20,14 +20,14 @@ jobs:
         run: node -v
       - name: check device list
         run: avdmanager list device
-      - name: install and start appium
-        run: |
-              npm install -g appium@next
-              appium -v
-              which appium
-              appium driver install uiautomator2
-              appium driver list
-              appium &>/dev/null &
+#       - name: install and start appium
+#         run: |
+#               npm install -g appium@next
+#               appium -v
+#               which appium
+#               appium driver install uiautomator2
+#               appium driver list
+#               appium &>/dev/null &
 
 #       - name: Run Automation Tests
 #         uses: reactivecircus/android-emulator-runner@v2
