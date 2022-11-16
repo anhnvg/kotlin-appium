@@ -10,7 +10,7 @@ import org.koin.core.context.startKoin
 import util.EnvironmentManager
 import util.getModule
 
-open class BaseTest: KoinComponent {
+open class BaseTest : KoinComponent {
     protected val automateDriver by inject<AutomateDriver>()
 
     @BeforeSuite
