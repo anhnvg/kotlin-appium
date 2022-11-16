@@ -14,6 +14,8 @@ jobs:
         run: java -version
       - name: check where java
         run: which java
+      - name: where is JAVA_HOME
+        run: echo $JAVA_HOME
       - name: check node version
         run: node -v
       
