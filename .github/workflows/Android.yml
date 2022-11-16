@@ -25,6 +25,13 @@ jobs:
               which appium
               appium driver install uiautomator2
               appium driver list
+      - name: Run Automation Tests
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 30
+          target: default
+          arch: arm64
+          profile: Pixel XL
 
       
 
