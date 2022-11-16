@@ -23,6 +23,7 @@ jobs:
               npm install -g appium@next
               appium -v
               which appium
+              appium driver install uiautomator2
               appium driver list
 
       
