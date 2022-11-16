@@ -1,6 +1,6 @@
 # Build and Release Folders
 build
-/.gradle/
+.gradle
 # Other files and folders
 .idea
 
