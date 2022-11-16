@@ -20,8 +20,8 @@ jobs:
         run: node -v
       - name: check the android home /usr/local/lib/android/sdk
         run: echo $ANDROID_HOME
-      - name: list emulator -list-avds
-        run: emulator -list-avds
+#       - name: list emulator -list-avds
+#         run: emulator -list-avds
 #       - name: install and start appium
 #         run: |
 #               npm install -g appium@next
@@ -31,14 +31,14 @@ jobs:
 #               appium driver list
 #               appium &>/dev/null &
 
-#       - name: Run Automation Tests
-#         uses: reactivecircus/android-emulator-runner@v2
-#         with:
-#           api-level: 30
-#           target: default
-#           arch: x86_64
-#           profile: avdmanager list device
-#           script: ./gradlew :test
+      - name: Run Automation Tests
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 30
+          target: default
+          arch: x86_64
+          profile: avdmanager list device
+#          script: ./gradlew :test
 
       
 
