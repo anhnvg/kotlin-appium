@@ -14,8 +14,8 @@ jobs:
         run: java -version
       - name: check where java
         run: which java
-      - name: where is JAVA_HOME
-        run: echo $JAVA_HOME
+      - name: where is JAVA_HOME /Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/8.0.345-1/x64/Contents/Home/
+        run: echo $JAVA_HOME 
       - name: check node version
         run: node -v
       - name: specify Xcode Version
