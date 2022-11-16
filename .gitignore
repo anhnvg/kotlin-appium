@@ -1,6 +1,6 @@
 # Build and Release Folders
 build
-.gradle
+/.gradle/
 # Other files and folders
 .idea
 
@@ -8,3 +8,4 @@ build
 
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
+
