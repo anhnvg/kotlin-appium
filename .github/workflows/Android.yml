@@ -18,6 +18,8 @@ jobs:
         run: echo $JAVA_HOME
       - name: check node version
         run: node -v
+      - name: check device list
+        run: avdmanager list device
       - name: install and start appium
         run: |
               npm install -g appium@next
@@ -26,14 +28,15 @@ jobs:
               appium driver install uiautomator2
               appium driver list
               appium &>/dev/null &
-      - name: Run Automation Tests
-        uses: reactivecircus/android-emulator-runner@v2
-        with:
-          api-level: 30
-          target: default
-          arch: x86_64
-          profile: Pixel XL
-          script: ./gradlew :test
+
+#       - name: Run Automation Tests
+#         uses: reactivecircus/android-emulator-runner@v2
+#         with:
+#           api-level: 30
+#           target: default
+#           arch: x86_64
+#           profile: Pixel XL
+#           script: ./gradlew :test
 
       
 
