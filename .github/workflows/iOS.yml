@@ -10,7 +10,14 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v3
-      
+      - name: check java version
+        run: java -version
+      - name: check where java
+        run: which java
+      - name: where is JAVA_HOME
+        run: echo $JAVA_HOME
+      - name: check node version
+        run: node -v
       - name: specify Xcode Version
         run: sudo xcode-select -s /Applications/Xcode_13.4.1.app/Contents/Developer
       
