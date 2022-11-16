@@ -14,7 +14,7 @@ jobs:
         run: java -version
       - name: check where java
         run: which java
-      - name: where is JAVA_HOME
+      - name: where is JAVA_HOME /usr/lib/jvm/temurin-11-jdk-amd64
         run: echo $JAVA_HOME
       - name: check node version
         run: node -v
