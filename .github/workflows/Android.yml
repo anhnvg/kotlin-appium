@@ -18,8 +18,8 @@ jobs:
         run: echo $JAVA_HOME
       - name: check node version
         run: node -v
-      - name: check device list
-        run: avdmanager list device
+      - name: check the android home
+        run: echo $ANDROID_HOME
 #       - name: install and start appium
 #         run: |
 #               npm install -g appium@next
@@ -35,7 +35,7 @@ jobs:
 #           api-level: 30
 #           target: default
 #           arch: x86_64
-#           profile: Pixel XL
+#           profile: avdmanager list device
 #           script: ./gradlew :test
 
       
