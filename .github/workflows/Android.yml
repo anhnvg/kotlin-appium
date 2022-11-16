@@ -18,6 +18,13 @@ jobs:
         run: echo $JAVA_HOME
       - name: check node version
         run: node -v
+      - name: install and start appium
+        run: |
+              npm install -g appium@next
+              appium -v
+              which appium
+              appium driver list
+
       
 
 
