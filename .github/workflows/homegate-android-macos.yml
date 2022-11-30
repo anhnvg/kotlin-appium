@@ -1,4 +1,4 @@
-name: Homegate Android UI Test
+name: Homegate Android macOS
 on:
   workflow_dispatch:
   pull_request:
