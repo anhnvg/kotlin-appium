@@ -11,7 +11,7 @@ import util.EnvironmentManager
 import util.getModule
 
 open class BaseTest : KoinComponent {
-    protected val automateDriver by inject<AutomateDriver>()
+    private val automateDriver by inject<AutomateDriver>()
 
     @BeforeSuite
     fun initModule() {
