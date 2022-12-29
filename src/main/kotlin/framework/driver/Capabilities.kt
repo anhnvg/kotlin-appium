@@ -26,8 +26,8 @@ object Capabilities {
     fun iOS(): XCUITestOptions {
         val capabilities = XCUITestOptions()
         capabilities.setCapability("platformName", "iOS")
-        capabilities.setCapability("appium:platformVersion", "15.5")
-        capabilities.setCapability("appium:deviceName", "iPhone 12")
+        capabilities.setCapability("appium:platformVersion", "16.1")
+        capabilities.setCapability("appium:deviceName", "iPhone 14 Pro")
         capabilities.setCapability("appium:automationName", "XCUITest")
         capabilities.setCapability("appium:noReset", false)
         capabilities.setCapability("appium:newCommandTimeout", 600)
