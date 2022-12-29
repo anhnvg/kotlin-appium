@@ -16,7 +16,7 @@ object Capabilities {
         capabilities.setCapability("appium:autoGrantPermissions", true)
         capabilities.setCapability("appium:appPackage", "ch.homegate.mobile.alpha")
         capabilities.setCapability("appium:appActivity", "ch.homegate.mobile.search.SearchActivity")
-        capabilities.setCapability("appium:app", App.androidHomeGatePath)
+        capabilities.setCapability("appium:app", App.androidWLPath)
         capabilities.setCapability("appium:version", "v2.0.0-beta.46")
 
 
@@ -34,7 +34,7 @@ object Capabilities {
         capabilities.setCapability("appium:simulatorStartupTimeout", 600000)
         capabilities.setCapability("appium:isHeadless", false)
         capabilities.setCapability("appium:maxTypingFrequency", 20)
-        capabilities.setCapability("appium:app", App.androidHomeGatePath)
+        capabilities.setCapability("appium:app", App.androidWLPath)
 
         return capabilities
     }
