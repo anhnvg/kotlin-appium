@@ -4,7 +4,7 @@ object EnvironmentManager {
 
     val isRealIosDevice: Boolean = false
     val isRemoteAppiumServer: Boolean = false
-    val platform: Platform = Platform.Android
+    val platform: Platform = Platform.IOS
 }
 
 enum class Platform {
