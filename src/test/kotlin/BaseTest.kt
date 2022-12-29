@@ -22,6 +22,7 @@ open class BaseTest : KoinComponent {
 
     @BeforeMethod
     fun initDriver() {
+        //Should it be better to init driver before suite
         automateDriver.initDriver()
     }
 
