@@ -28,7 +28,9 @@ open class BaseTest : KoinComponent {
     @AfterMethod(description = "Screenshot | Video", alwaysRun = true)
     fun afterTest(result: ITestResult) {
         if (!result.isSuccess) {
-            println("HELLO ANH THIS TEST IS FAILED")
+            println("BaseTest: @AfterMethod afterTest fun is called. Unfortunately, the test is FAILED")
+        } else {
+            println("BaseTest: @AfterMethod afterTest fun is called. Fortunately, the test is PASSED")
         }
     }
 
