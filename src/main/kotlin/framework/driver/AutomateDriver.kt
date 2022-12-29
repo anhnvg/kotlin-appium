@@ -33,7 +33,6 @@ abstract class BaseAutomateDriver : AutomateDriver {
 class AndroidAutomateDriver : BaseAutomateDriver() {
 
     override fun initDriver() {
-        println(AppiumServerManager.serverAddress)
         driver = AndroidDriver(URL(AppiumServerManager.serverAddress), Capabilities.Android())
         setImplicityWait()
     }
