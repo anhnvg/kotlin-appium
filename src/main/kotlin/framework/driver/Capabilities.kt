@@ -34,7 +34,7 @@ object Capabilities {
         capabilities.setCapability("appium:simulatorStartupTimeout", 600000)
         capabilities.setCapability("appium:isHeadless", false)
         capabilities.setCapability("appium:maxTypingFrequency", 20)
-        capabilities.setCapability("appium:app", App.androidWLPath)
+        capabilities.setCapability("appium:app", App.iOSdWLPath)
 
         return capabilities
     }
